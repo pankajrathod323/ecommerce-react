@@ -1,9 +1,9 @@
 import axios from "axios";
 import { Fragment } from "react";
 import { useEffect, useState } from "react";
-import { Header } from "../components/Header";
+import { Header } from "../../components/Header";
 import dayjs from "dayjs";
-import { formatMoney } from "../utils/money";
+import { formatMoney } from "../../utils/money";
 import "./OrdersPage.css";
 
 export function OrdersPage({ cart }) {
@@ -83,9 +83,7 @@ export function OrdersPage({ cart }) {
                     }
                   </div>
                 </div>
-
-
-              )
+               )
             })
           }
         </div>
